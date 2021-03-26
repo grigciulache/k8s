@@ -17,7 +17,7 @@ jobs:
         run: |
           # echo Add other actions to build,
           # echo test, and deploy your project.
-          # ls -la
-          kubectl apply -f hello_deployment_gh.yaml
-          kubectl apply -f hello_service_gh.yaml
+          ls -la
+          # kubectl apply -f hello_deployment_gh.yaml
+          # kubectl apply -f hello_service_gh.yaml
 
